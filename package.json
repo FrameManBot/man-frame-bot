@@ -1,11 +1,15 @@
 {
   "name": "man-frame-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
   }
 }
